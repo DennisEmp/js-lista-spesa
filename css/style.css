@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    padding: 10px;
+}
+
+main{
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+
+.titolo{
+    text-align: center;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%,-50%);
+} 
+
+.additems {
+    background-color: #2db638;;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.lista {
+    margin-top: 5px;
+}
+
+
